@@ -97,7 +97,6 @@ public class practice {
         for (int i = 0; i < livraryBooks.length; i++) {
             if (livraryBooks[i] != null) {
                 if (title.equals(livraryBooks[i].getTitle())) {
-                    livraryBooks[i].setTitle(title);
                     System.out.println("We find the book ----> " + livraryBooks[i].getTitle() + " On the place " + i);
 
                 }
