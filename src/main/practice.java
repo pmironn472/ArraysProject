@@ -85,7 +85,8 @@ public class practice {
 
     public static void readAll(boolean excludeEmpty) {
         for (int i = 0; i < livraryBooks.length; i++) {
-            if (excludeEmpty && livraryBooks[i] != null) {
+            excludeEmpty = livraryBooks[i]!=null;
+            if (excludeEmpty) {
                 System.out.println(livraryBooks[i] + " " + i);
             }
         }
